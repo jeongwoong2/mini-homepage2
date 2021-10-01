@@ -1,0 +1,160 @@
+body{
+    position: fixed;
+    background-color: rgb(53, 126, 245);
+    background-image: url('./images/pattern.png');
+    background-size: 12px;
+    left: 0;
+}
+
+.bookcover{
+    position: relative;
+    width: 100px;
+    background-color: rgb(119, 187, 214);
+    top: 90px;
+    left: 420px;
+    height:750px;
+    width: 1085px;
+    border-radius: 10px;
+}
+.bookdot{
+    position: absolute;
+    background-color: rgb(133, 215, 236);
+    border-radius: 12px;
+    border: 10px dotted rgb(231, 231, 231);
+    border-width: 3px;
+    left: 15px;
+    top: 15px;
+    width: 1050px;
+    height: 715px;
+}
+
+.page{
+    position: absolute;
+    background-color: rgb(214, 255, 252);
+    width: 1032px;
+    height: 688px;
+    left: 8px;
+    top: 8px;
+    border-radius: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 900px 100px;
+}
+.flex{
+    display: flex;
+    padding-left: 15px;
+    width: 1000px;
+    padding-top: 5px;
+ 
+}
+.col{
+    flex: 0.20;
+    border: 1px solid rgb(134, 230, 225);
+    margin-right: 30px;
+    height: 590px;
+    border-radius: 10px;
+    background-color: rgb(158, 224, 255);
+    padding: 30px;
+    width: 200px;
+    }
+
+.col2{
+    flex: 0.70;
+    border: 1px solid rgb(134, 230, 225);
+    border-radius: 10px;
+    background-color: rgb(158, 224, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 0;
+    overflow: scroll;
+    height: 630px;
+    
+}
+
+p{
+    padding-left: 20px;
+    display: inline;
+    width: 30px;
+}
+
+.bor{
+    height: 404px;
+    width: 98px;
+    border-radius: 5px;
+     margin-left: 27px;
+     display: flex;
+     flex-direction: column;
+     padding-top: 50px;
+     height: 200px;
+     padding-left: 1px;
+     color: rgb(255, 255, 255);
+     font-size: 14px;
+}
+
+
+.to {
+    padding-left: 60px;
+}
+
+.난{
+    padding-left: 70px;
+}
+
+.http{
+    padding-left: 90px;
+}
+
+
+.woong{
+    width: 180px;
+   
+}
+
+.box1{
+    
+    flex-basis: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2{
+   
+  flex-basis: 500px;
+}
+
+
+
+.inbox2{
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid black;
+}
+
+.pic{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.di{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.di1{
+    flex-basis: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.di2{
+    flex-basis: 10px;
+    display: flex;
+    flex-direction: row;
+}
+

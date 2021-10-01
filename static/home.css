@@ -1,0 +1,210 @@
+.inbox1{
+    flex: 1;
+    border-bottom: 1px soild black;
+    color: rgb(51, 63, 230);
+}
+
+.pic1{
+    flex-basis: 90px;
+}
+
+.pic2{
+    flex-basis: 200px;
+}
+
+.heart{
+    flex: 1;
+}
+
+.beat{
+    flex: 2.5;
+    background-color: rgb(172, 243, 255);
+}
+
+.weight{
+    flex: 1;
+}
+
+.kg{
+    flex: 2.5;
+    background-color: rgb(255, 172, 227);
+}
+
+.낙서{
+    padding-left: 0;
+    border-bottom: 1px solid black;
+    display: block;
+    width: 599.3px;
+    color: rgb(51, 63, 230);
+}
+
+.clock{
+    background-color: rgb(255, 238, 213);
+}
+
+.six{
+    background-color: rgb(218, 179, 255);
+}
+
+.good{
+    background-color: rgb(222, 255, 169);
+}
+
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    width: 180px;
+    height: 55px;
+    margin-top: 270px;
+    border: 1px solid black
+    
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #dadada;
+  }
+
+
+
+  .beatles{
+      height: 490px;
+      display:block;
+  }
+
+  .bor div:hover {background-color: #617eff}
+
+  .bor div{
+    flex: 1;
+    border: 1px solid rgb(127, 119, 230);
+    border-left: blanchedalmond;
+    margin-bottom: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(140, 160, 248);
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+
+
+ 
+/* Dropdown Button */
+.dropbtnn {
+  background-color: #16c082;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-top: 20px;
+  padding-left: 0px;
+  margin-left: 200px;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  height: 100px;
+  margin-bottom: 0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-contentt {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 200px;
+}
+
+/* Links inside the dropdown */
+.dropdown-contentt a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-left: 20px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-contentt a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-contentt {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtnn {background-color: #35f83c;}
+
+.ad{
+  width: 180px;
+  height: 50px;
+  font-size: 50px;
+}
+
+.dia{
+  display: grid;
+  grid-template-columns: 70px 500px;
+  border: 1px solid rgb(30, 53, 251);
+}
+
+.밤낮{
+  text-align: center;
+  width: 600px;
+}
+
+#secret-box {
+  display: none;
+}
+
+.diary-box{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.diary-text {
+  text-align: center;
+  padding: 20px;
+}

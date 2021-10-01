@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/layout2.css" />
+    <link rel="stylesheet" href="./static/font.css">
+    <link rel="stylesheet" href="./static/home.css">
+    <script src="https://kit.fontawesome.com/b6beb673d3.js" crossorigin="anonymous"></script>
+  </head>
+  <body >
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class="one">
+          <p class="to">TODAY<span style="color: rgb(255, 24, 71);">100</span>| TOTAL 112</p>
+          <p class="난">난...ㄱㅏ끔... 눈물을 흘린ㄷㅏ...</p>
+          <p class="http">http://url주소/나중에입력</p>
+          <div class="flex">
+          <div class="col">
+            <img class="woong" src="woong.png" alt="">
+            <p class="intro">안녕하세요! 정웅희라고 합니다! 25살이고 인천에 살고있어요ㅎㅎ
+              우리 모두 코로나를 잘 버텨내요 화이팅!!!!
+            </p>
+            <div class="dropdown">
+              <button class="dropbtn">서핑하기</button>
+              <div class="dropdown-content">
+                <a href="#">유튜브</a>
+                <a href="#">제페토</a>
+              </div>
+            </div>
+          </div>
+          <div class="col2">
+            <div class="box1">
+              <div class="inbox1">
+                <div class="dia">
+                <div>09.27  MON</div>
+                <div>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 </div>
+              </div>
+              </div>
+              <div class="scr">
+              <div class="inbox2">
+                <div class="box2">
+                  <p class="낙서"><span class="graff">0927</span></p>
+                  <div class="밤낮">밤낮이 바뀌었다 부엉이가 된기분이다<br> 내일 아침 7시 이모네 식당에 가서 오징어 볶음을 먹어야겠다.<br>
+                  그리고 카프리썬을 마셔야겠다 ㅋㅋㅋㅋ<br> 시간이 너무 안간다 배고프기 시작한다.</div>
+                </div>
+                <div class="di">
+                  <div class="di2">
+                  </div>
+              </div>
+            </div>
+            <div class="box2">
+              <p class="낙서"><span class="graff">0926</span></p>
+              <img src="4.jpg" width="560px" alt="">
+            </div>
+            <div class="dropdown">
+              <button class="dropbtnn" onclick="getTextFile()" id="광고"><i class="fas fa-ad ad">광고</i></button>
+            </div>
+            <div class="diary-box" id="secret-box">
+              <div class="diary-date">치킨집 전화번호</div>
+              <div class="diary-text font-kyobohand" id="secret-diary"></div>
+            </div>
+            <script>
+                 function getTextFile() {
+                var input = document.createElement("input");
+                input.type = "file";
+                input.accept = "text/plain";
+                input.onchange = function (event) {
+                  processFile(event.target.files[0]);
+                };
+                input.click();
+                }
+                  function processFile(file) {
+                  var reader = new FileReader();
+                  reader.readAsText(file, "utf-8");
+                  reader.onload = function () {
+                  document.getElementById("secret-diary").innerText = reader.result;
+                  document.getElementById("secret-box").style.display = "block";
+                  document.getElementById("광고").style.display = "none";
+                };
+              }
+            </script>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bor">
+      <div><a href="./1.html">홈</a></div>
+      <div><a href="./diary.html">다이어리</a></div>
+      <div><a href="./photo.html">사진첩</a></div>
+      <div><a href="./guest.html">방명록</a></div>
+    </div>
+  </div>
+    </div>
+  </body>
+</html>
